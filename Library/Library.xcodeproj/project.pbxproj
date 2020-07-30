@@ -1,0 +1,107 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		4B70757E250202A5006E2685 /* LeftAlignedPaddedLabelLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftAlignedPaddedLabelLayout.swift; sourceTree = "<group>"; };
+		4B70757F250202A5006E2685 /* CGVector+AdditiveArithmetic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGVector+AdditiveArithmetic.swift"; sourceTree = "<group>"; };
+		4B707580250202A5006E2685 /* UIViewControllerPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerPreview.swift; sourceTree = "<group>"; };
+		4B707581250202A5006E2685 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		4B707582250202A5006E2685 /* CGPoint+AdditiveArithmetic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+AdditiveArithmetic.swift"; sourceTree = "<group>"; };
+		4B707583250202A5006E2685 /* PaddedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
+		4B707584250202A5006E2685 /* WrapperCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapperCell.swift; sourceTree = "<group>"; };
+		4B707586250202D8006E2685 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		4B707587250202D8006E2685 /* SynoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynoRequest.swift; sourceTree = "<group>"; };
+		4B7075922502033C006E2685 /* SynoCGIEncryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynoCGIEncryption.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4B70757725020276006E2685 = {
+			isa = PBXGroup;
+			children = (
+				4B707585250202D8006E2685 /* Request */,
+				4B7075912502033C006E2685 /* SynoCGIEncryption */,
+				4B707582250202A5006E2685 /* CGPoint+AdditiveArithmetic.swift */,
+				4B70757F250202A5006E2685 /* CGVector+AdditiveArithmetic.swift */,
+				4B707581250202A5006E2685 /* ClockView.swift */,
+				4B70757E250202A5006E2685 /* LeftAlignedPaddedLabelLayout.swift */,
+				4B707583250202A5006E2685 /* PaddedLabel.swift */,
+				4B707580250202A5006E2685 /* UIViewControllerPreview.swift */,
+				4B707584250202A5006E2685 /* WrapperCell.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		4B707585250202D8006E2685 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				4B707586250202D8006E2685 /* Request.swift */,
+				4B707587250202D8006E2685 /* SynoRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		4B7075912502033C006E2685 /* SynoCGIEncryption */ = {
+			isa = PBXGroup;
+			children = (
+				4B7075922502033C006E2685 /* SynoCGIEncryption.swift */,
+			);
+			path = SynoCGIEncryption;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		4B70757825020276006E2685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+			};
+			buildConfigurationList = 4B70757B25020276006E2685 /* Build configuration list for PBXProject "Library" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B70757725020276006E2685;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		4B70757C25020276006E2685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4B70757D25020276006E2685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B70757B25020276006E2685 /* Build configuration list for PBXProject "Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B70757C25020276006E2685 /* Debug */,
+				4B70757D25020276006E2685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B70757825020276006E2685 /* Project object */;
+}

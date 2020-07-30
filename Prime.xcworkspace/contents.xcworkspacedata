@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Library/Library.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Open/Open.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PTT/PTT.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Sanctum/Sanctum.xcodeproj">
+   </FileRef>
+</Workspace>
