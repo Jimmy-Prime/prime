@@ -7,5 +7,6 @@ struct BundleWidget: WidgetBundle {
         BlankWidget()
         ClockWidget()
         NoteWidget()
+        GIFWidget()
     }
 }

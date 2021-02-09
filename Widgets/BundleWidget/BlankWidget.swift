@@ -21,6 +21,7 @@ struct BlankTimelineProvider: TimelineProvider {
     }
 }
 
+@main
 struct BlankWidget: Widget {
     var body: some WidgetConfiguration {
         StaticConfiguration(kind: "Blank", provider: BlankTimelineProvider()) { _ in

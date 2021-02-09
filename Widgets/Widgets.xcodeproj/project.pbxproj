@@ -26,6 +26,11 @@
 		4B60121D25230B450087E846 /* UserDefaultWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B60121925230B310087E846 /* UserDefaultWrapper.swift */; };
 		4BA8F07E25241C7F00C75BBF /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA8F07D25241C7F00C75BBF /* UserDefault.swift */; };
 		4BA8F08125241C9000C75BBF /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA8F07D25241C7F00C75BBF /* UserDefault.swift */; };
+		4BE5EF04255A9769008AC237 /* GIFWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE5EF03255A9769008AC237 /* GIFWidget.swift */; };
+		4BE5EF08255A9868008AC237 /* partyblob.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4BE5EF07255A9868008AC237 /* partyblob.gif */; };
+		4BE5EF09255A9868008AC237 /* partyblob.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4BE5EF07255A9868008AC237 /* partyblob.gif */; };
+		4BE5EF0D255A9A34008AC237 /* PartyBlob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE5EF0C255A9A34008AC237 /* PartyBlob.swift */; };
+		4BE5EF0E255A9A34008AC237 /* PartyBlob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE5EF0C255A9A34008AC237 /* PartyBlob.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +78,9 @@
 		4B60122225232A8E0087E846 /* Widgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widgets.entitlements; sourceTree = "<group>"; };
 		4B60122525232B310087E846 /* BundleWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BundleWidgetExtension.entitlements; sourceTree = "<group>"; };
 		4BA8F07D25241C7F00C75BBF /* UserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDefault.swift; path = ../../Library/UserDefault.swift; sourceTree = "<group>"; };
+		4BE5EF03255A9769008AC237 /* GIFWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFWidget.swift; sourceTree = "<group>"; };
+		4BE5EF07255A9868008AC237 /* partyblob.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = partyblob.gif; sourceTree = "<group>"; };
+		4BE5EF0C255A9A34008AC237 /* PartyBlob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyBlob.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,8 @@
 		4B6011752522DAA10087E846 = {
 			isa = PBXGroup;
 			children = (
+				4BE5EF0C255A9A34008AC237 /* PartyBlob.swift */,
+				4BE5EF07255A9868008AC237 /* partyblob.gif */,
 				4BA8F07C25241C6700C75BBF /* _Library */,
 				4B60122525232B310087E846 /* BundleWidgetExtension.entitlements */,
 				4B6011802522DAA10087E846 /* Widgets */,
@@ -156,6 +166,7 @@
 				4B60120A2522FDE60087E846 /* BlankWidget.swift */,
 				4B6011EF2522F76E0087E846 /* BundleWidget.swift */,
 				4B6011FF2522FAF70087E846 /* ClockWidget.swift */,
+				4BE5EF03255A9769008AC237 /* GIFWidget.swift */,
 				4B6011F32522F7710087E846 /* Info.plist */,
 				4B6012102523038D0087E846 /* NoteWidget.swift */,
 			);
@@ -256,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BE5EF08255A9868008AC237 /* partyblob.gif in Resources */,
 				4B6011862522DAA40087E846 /* Assets.xcassets in Resources */,
 				4B6011892522DAA40087E846 /* Preview Assets.xcassets in Resources */,
 			);
@@ -265,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BE5EF09255A9868008AC237 /* partyblob.gif in Resources */,
 				4B6011F22522F7710087E846 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B60119B2522F4DB0087E846 /* ClockView.swift in Sources */,
+				4BE5EF0D255A9A34008AC237 /* PartyBlob.swift in Sources */,
 				4B6011842522DAA10087E846 /* ContentView.swift in Sources */,
 				4BA8F07E25241C7F00C75BBF /* UserDefault.swift in Sources */,
 				4B60121A25230B310087E846 /* UserDefaultWrapper.swift in Sources */,
@@ -289,9 +303,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B60120B2522FDE60087E846 /* BlankWidget.swift in Sources */,
+				4BE5EF0E255A9A34008AC237 /* PartyBlob.swift in Sources */,
 				4BA8F08125241C9000C75BBF /* UserDefault.swift in Sources */,
 				4B6011F02522F76E0087E846 /* BundleWidget.swift in Sources */,
 				4B6011FC2522F7B90087E846 /* ClockView.swift in Sources */,
+				4BE5EF04255A9769008AC237 /* GIFWidget.swift in Sources */,
 				4B6012052522FB120087E846 /* ClockWidget.swift in Sources */,
 				4B601214252304580087E846 /* NoteWidget.swift in Sources */,
 				4B60121D25230B450087E846 /* UserDefaultWrapper.swift in Sources */,

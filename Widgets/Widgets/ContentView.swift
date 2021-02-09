@@ -6,6 +6,7 @@ struct ContentView: View {
     @State var blankActive: Bool = false
     @State var clockActive: Bool = false
     @State var noteActive: Bool = false
+    @State var gifActive: Bool = false
 
     var body: some View {
         NavigationView {
@@ -21,12 +22,17 @@ struct ContentView: View {
                 NavigationLink(destination: NoteItemView(), isActive: $noteActive) {
                     Text("Note")
                 }
+
+                NavigationLink(destination: PartyBlob().padding(), isActive: $gifActive) {
+                    Text("PartyBlob")
+                }
             }
                 .navigationBarTitle(Text("Widgets"), displayMode: .inline)
                 .onOpenURL(perform: { (url) in
                     self.blankActive = url == URL(string: "widget:///blank")!
                     self.clockActive = url == URL(string: "widget:///clock")!
                     self.noteActive = url == URL(string: "widget:///note")!
+                    self.gifActive = url == URL(string: "widget:///gif")!
                 })
         }
     }
